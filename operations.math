@@ -1,0 +1,25 @@
+# basic operations Math file
+VARS:
+  IN var1
+  IN var2
+  IN var3
+  OUT r1
+  OUT r2
+  OUT r3
+  OUT r4
+  OUT r5
+  OUT r6
+START:
+ ADD $var1 $var2 $var3 STORE $r1
+ ADD $var1 $var2 STORE $r2
+ MUL $var1 $var2 STORE $r3
+ MUL $var2 $var2 $var3 STORE $r4
+ DIV $var1 $var2 STORE $r5
+ SUB $var1 $var2 STORE $r6
+ SHOW $r1
+ SHOW $r2
+ SHOW $r3
+ SHOW $r4
+ SHOW $r5
+ SHOW $r6
+END:
